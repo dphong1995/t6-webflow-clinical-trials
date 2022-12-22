@@ -19,8 +19,8 @@ export default function App({Component, pageProps}) {
       };
     })(window, document, 'amazon_connect', '05663374-f821-465e-8cdc-a4a75d427827');
     amazon_connect('styles', {
-      openChat: {color: '#ffffff', backgroundColor: '#092045'},
-      closeChat: {color: '#ffffff', backgroundColor: '#092045'}
+      openChat: {color: '#ffffff', backgroundColor: 'black'},
+      closeChat: {color: '#ffffff', backgroundColor: 'black'}
     });
     amazon_connect('snippetId', 'QVFJREFIaTVucjV6blZLVmVuUmIvVHpJa0xaVTRpNURvQ3pianQ3R1hoWGhVcmtmTlFGeENGd0VlWkpYV1JrTmZYOEtqb01qQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNams1eGVWTDFaeXB0RlI3MEFnRVFnQ3Z3aGVQMmFGVXpPTW1ucFREOUh1Sjk3Sk1BNTRhVXdVamxhZkllUGJkTTZnV0lhcjhjTUFRMXNBM1U6Ok5hb1BXQ3NscXNiV3pzOXB0VXIxdDMxU005VkdiSTA2cUo1Mnc0cU5BOHM5NElHSGxXM3g3UkI1b3h4eUp2UnA2Z0xWUFFYTFpycGU4N1BhazIvOEI5UzR0UnR6MFN3SE9vQ2JEL0x4d043bEIvbS9Sb0tCNDRyaTRFOFVkRzQ0ZnNldEZ3a1hnUTZnWXhSLy9MclBZdWV5M1dLNCs1OD0=');
     amazon_connect('supportedMessagingContentTypes', ['text/plain', 'text/markdown']);
