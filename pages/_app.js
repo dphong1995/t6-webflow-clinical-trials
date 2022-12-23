@@ -8,6 +8,12 @@ export default function App({Component, pageProps}) {
       return;
     }
 
+    if (window) {
+      window.googleTranslateElementInit = function () {
+        new window.google.translate.TranslateElement({pageLanguage: 'en', layout: window.google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+      }
+    }
+
     (function (w, d, x, id) {
       const s = d.createElement('script');
       s.src = 'https://db08fjupg2abb.cloudfront.net/amazon-connect-chat-interface-client.js';
@@ -24,6 +30,32 @@ export default function App({Component, pageProps}) {
     });
     amazon_connect('snippetId', 'QVFJREFIaTVucjV6blZLVmVuUmIvVHpJa0xaVTRpNURvQ3pianQ3R1hoWGhVcmtmTlFGeENGd0VlWkpYV1JrTmZYOEtqb01qQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNams1eGVWTDFaeXB0RlI3MEFnRVFnQ3Z3aGVQMmFGVXpPTW1ucFREOUh1Sjk3Sk1BNTRhVXdVamxhZkllUGJkTTZnV0lhcjhjTUFRMXNBM1U6Ok5hb1BXQ3NscXNiV3pzOXB0VXIxdDMxU005VkdiSTA2cUo1Mnc0cU5BOHM5NElHSGxXM3g3UkI1b3h4eUp2UnA2Z0xWUFFYTFpycGU4N1BhazIvOEI5UzR0UnR6MFN3SE9vQ2JEL0x4d043bEIvbS9Sb0tCNDRyaTRFOFVkRzQ0ZnNldEZ3a1hnUTZnWXhSLy9MclBZdWV5M1dLNCs1OD0=');
     amazon_connect('supportedMessagingContentTypes', ['text/plain', 'text/markdown']);
+
+    const google = document.createElement('script');
+    google.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+    document.getElementsByTagName('body')[0].appendChild(google);
+
+    function triggerHtmlEvent(element, eventName) {
+      var event;
+      if (document.createEvent) {
+        event = document.createEvent('HTMLEvents');
+        event.initEvent(eventName, true, true);
+        element.dispatchEvent(event);
+      } else {
+        event = document.createEventObject();
+        event.eventType = eventName;
+        element.fireEvent('on' + event.eventType, event);
+      }
+    }
+
+    window.jQuery('.lang-select').click(function() {
+      var theLang = window.jQuery(this).attr('data-lang');
+      window.jQuery('.goog-te-combo').val(theLang);
+
+      //alert(jQuery(this).attr('href'));
+      window.location = window.jQuery(this).attr('href');
+      location.reload();
+    });
   }, []);
 
   return (
