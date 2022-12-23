@@ -5513,6 +5513,7 @@ figcaption {
 .button-primary.small.home-jobs-filter-search-button {
   position: absolute;
   right: 12px;
+  top: 10px;
 }
 
 .button-primary.small.footer-newsletter {
