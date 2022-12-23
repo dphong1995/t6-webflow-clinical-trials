@@ -1,6 +1,5 @@
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import {toggleFunc} from "../../components/clickFunc";
 
 export default function () {
   return (
@@ -18,22 +17,24 @@ export default function () {
             }} className="split-content job-post-body">
               <div className="card job-post">
                 <div data-w-id="ebcc2b89-9ed8-8b91-2d0e-6dfaa089b244" className="image-wrapper card-job-post"><img
-                  src="https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/637be9fff1765c36208dde54_image-7-cover-company-job-board-x-template.jpg"
-                  alt="Massachusetts General Hospital" sizes="100vw"
-                  srcSet="https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/637be9fff1765c36208dde54_image-7-cover-company-job-board-x-template-p-500.jpeg 500w, https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/637be9fff1765c36208dde54_image-7-cover-company-job-board-x-template-p-800.jpeg 800w, https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/637be9fff1765c36208dde54_image-7-cover-company-job-board-x-template-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/637be9fff1765c36208dde54_image-7-cover-company-job-board-x-template.jpg 1964w"
+                  src="https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/637be9fff1765c50288dde52_image-6-cover-company-job-board-x-template.jpg"
+                  alt="St. Jude Children's Research Hospital"
+                  sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 95vw, (max-width: 1439px) 74vw, 846.875px"
+                  srcSet="https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/637be9fff1765c50288dde52_image-6-cover-company-job-board-x-template-p-500.jpeg 500w, https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/637be9fff1765c50288dde52_image-6-cover-company-job-board-x-template-p-800.jpeg 800w, https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/637be9fff1765c50288dde52_image-6-cover-company-job-board-x-template-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/637be9fff1765c50288dde52_image-6-cover-company-job-board-x-template.jpg 1964w"
                   className="image card-job-post" style={{
                   willChange: 'transform',
-                  transform: 'translate3d(0px, -4.9178px, 0px) scale3d(1.02459, 1.02459, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transform: 'translate3d(0px, -4.0103px, 0px) scale3d(1.02005, 1.02005, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
                   transformStyle: 'preserve-3d'
                 }}/></div>
                 <div className="card-job-post-content">
                   <div className="card-job-post-content-top">
                     <div className="card-job-post-title-wrapper">
                       <div className="image-wrapper card-job-post-logo"><img
-                        src="https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/63a413630bd706414486f790_mgh.png"
-                        alt="Haplo Peripheral Blood Sct In GVHD Prevention" className="image card-job-post-logo"/></div>
-                      <h1 className="title h2-size card-job-post">Haplo Peripheral Blood Sct In GVHD Prevention</h1>
-                    </div>
+                        src="https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/63a41427d004d00a76700d52_StJude.png"
+                        alt="Study of CD19-directed Allogeneic Memory T-cell Therapy for Relapsed/Refractory CD19+ Leukemia"
+                        className="image card-job-post-logo"/></div>
+                      <h1 className="title h2-size card-job-post">Study of CD19-directed Allogeneic Memory T-cell
+                        Therapy for Relapsed/Refractory CD19+ Leukemia</h1></div>
                     <div className="card-job-post-categories-wrapper">
                       <div className="card-job-post-category-wrapper">
                         <div className="card-job-post-category-title-wrapper"><img
@@ -42,7 +43,7 @@ export default function () {
                           className="card-job-post-category-title-icon"/>
                           <div>Location</div>
                         </div>
-                        <div className="card-job-post-category-text">Boston, MA</div>
+                        <div className="card-job-post-category-text">Memphis, TN</div>
                       </div>
                       <div className="card-job-post-category-wrapper">
                         <div className="card-job-post-category-title-wrapper"><img
@@ -60,9 +61,9 @@ export default function () {
                           className="card-job-post-category-title-icon"/>
                           <div>Study Status</div>
                         </div>
-                        <div className="card-job-post-category-text">Enrolling</div>
+                        <div className="card-job-post-category-text">Active</div>
                       </div>
-                      <div className="card-job-post-category-wrapper w-condition-invisible">
+                      <div className="card-job-post-category-wrapper">
                         <div className="card-job-post-category-title-wrapper"><img
                           src="https://uploads-ssl.webflow.com/637be9fef1765c0f958ddd3c/637be9fff1765c52ac8ddd8e_icon-4-job-categories-job-board-x-template.svg"
                           alt="Clock Icon - Job Board X Webflow Template"
@@ -71,7 +72,7 @@ export default function () {
                         </div>
                         <div className="card-job-post-category-text">Drug</div>
                       </div>
-                      <div className="card-job-post-category-wrapper w-condition-invisible">
+                      <div className="card-job-post-category-wrapper">
                         <div className="card-job-post-category-title-wrapper">
                           <div>Age</div>
                         </div>
@@ -88,37 +89,32 @@ export default function () {
                         <div>December 22, 2022</div>
                       </div>
                     </div>
-                    <div className="w-richtext"><p>This clinical trial is studying a new treatment for children and
-                      young adults with B cell malignancies, specifically B acute lymphoblastic leukemia, that has come
-                      back or is not responding to other treatments. The treatment involves using genetically-engineered
-                      immune cells called CAR T cells, which are designed to attack cancer cells by recognizing and
-                      responding to specific proteins found on the surface of B acute lymphoblastic leukemia cells. The
-                      treatment also includes chemotherapy drugs that help stop the growth of cancer cells. The goal of
-                      the trial is to determine the best dose of CAR T cells to use and to assess their safety and
-                      effectiveness. The trial is currently recruiting participants and is being conducted at the Lucile
-                      Packard Children's Hospital at Stanford University in California. If you are interested in
-                      learning more about this trial and possibly participating, you should speak with your trusted
-                      doctor or contact the trial team at the hospital.</p></div>
+                    <div className="w-richtext"><p>This study is evaluating the safety and effectiveness of a new
+                      treatment called CD19-directed allogeneic memory T-cell therapy for children and young adults
+                      under 21 years old with relapsed or refractory CD19+ leukemia. CD19-directed allogeneic memory
+                      T-cell therapy is a type of CAR T-cell therapy, which uses genetically modified T-cells (a type of
+                      white blood cell) to target and kill cancer cells. The study will enroll a total of 60
+                      participants and will include doses of the CD19-directed allogeneic memory T-cell therapy that are
+                      escalated or de-escalated based on the patient's response and any side effects experienced. The
+                      primary goal of the study is to determine the maximum tolerated dose of the CD19-directed
+                      allogeneic memory T-cell therapy and assess its safety profile. The secondary goals include
+                      evaluating the therapy's effectiveness against leukemia and studying the rates and severity of
+                      graft-versus-host disease (GVHD) after treatment. The study will also include several exploratory
+                      objectives, including studying the expansion and persistence of the CD19-directed allogeneic
+                      memory T-cells, characterizing the cytokine profile (a type of protein involved in immune
+                      responses), and assessing the clonal structure and endogenous repertoire (the unique genetic
+                      makeup) of the CD19-directed allogeneic memory T-cells.</p></div>
                     <h2 className="title h3-size job-rich-text">Inclusion Criteria</h2>
-                    <div className="w-richtext"><p>Men or women ? 18 and ? 80 years oldDiagnosis of hematological
-                      malignancy:Acute myeloid leukemia (AML) or acute lymphoblastic leukemia (ALL) in morphologic
-                      complete remissionMyelodysplastic syndrome (MDS), myeloproliferative disorders (MPN), or chronic
-                      myelomonocytic leukemic (CMML) with &lt; 5% blasts in blood or bone marrowChemosensitive Hodgkin
-                      lymphoma (HL) or Non-Hodgkin lymphoma (NHL)Patients must be undergoing haploidentical allogeneic
-                      hematopoietic cell transplantation, defined as 1st or 2nd degree relative with at least 5/10
-                      matching at HLA-A, -B, -C, DR, and DQ.ECOG performance status ?2Patients with adequate physical
-                      function as measured by:Cardiac: Left ventricular ejection fraction at rest must be ? 40%, or
-                      shortening fraction &gt;25%Hepatic:Bilirubin ? 2.5 mg/dL, except for patients with Gilbert's
-                      syndrome or hemolysisALT, AST, and Alkaline Phosphatase &lt; 5 x ULNRenal: Serum creatinine within
-                      normal range, or if serum creatinine is outside normal range, then renal function (measured or
-                      estimated creatinine clearance or GFR) ? 40mL/min/1.73m2Pulmonary: DLCO (corrected for
-                      hemoglobin), FEV1 and FVC ? 50% predictedAbility to understand and the willingness to sign a
-                      written informed consent document</p></div>
-                    <div>
-                      <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis sit aliquam faucibus
-                        fringilla eu.
-                      </div>
-                    </div>
+                    <div className="w-richtext"><p>Age ≥ 18 years old at least single haplotype matched (≥ 3/6) family
+                      member</p><p>HIV negative. </p><p>For females of child bearing age: Not pregnant as confirmed by
+                      negative serum or urine pregnancy test within 14 days prior to enrollment AND not lactating with
+                      intent to breastfeed.</p><p>Completed the process of donor eligibility determination as outlined
+                      in 21 CFR 1271 and agency guidance. &nbsp; &nbsp;</p><p>Identified recipient with relapsed and/or
+                      refractory CD19-positive leukemia&nbsp;who is not suitable to receive autologous CD19-CAR T-cell
+                      therapy as defined by the following: &nbsp;Relapsed and/or refractory disease despite prior
+                      treatment with autologous&nbsp;CD19-CAR T-cell therapy.</p><p>History of prior autologous
+                      leukapheresis failure. &nbsp; &nbsp;</p><p>History of prior autologous CAR T-cell manufacturing
+                      failure.</p></div>
                     <h2 className="title h3-size job-rich-text">Exclusion Criteria</h2>
                     <div className="w-richtext"><p>Subjects meeting any of the following criteria are not eligible for
                       participation in the study:</p><p>Recurrent or refractory ALL limited to isolated testicular.</p>
@@ -127,8 +123,8 @@ export default function () {
                         clinical signs of CNS leukemia).</p><p>Hyperleukocytosis (≥ 50,000 blasts/µL) or rapidly
                         progressive disease that in the estimation of the investigator and sponsor would compromise
                         ability to complete study therapy.</p></div>
-                    <a href="https://www.massgeneral.org/" onClick={toggleFunc}
-                       className="button-primary apply-button w-button">Apply now</a></div>
+                    <a href="https://stjude.com" target="_blank" className="button-primary apply-button w-button">Apply
+                      now</a></div>
                 </div>
               </div>
               <div data-w-id="bd5ebe39-4c1d-b6ea-1c19-d384bef2b3eb" style={{
@@ -144,27 +140,26 @@ export default function () {
                     className="title h4-size card-job-post-sidebar">Apply now</h3><p
                     className="paragraph card-job-post-sidebar">Please let Webflow know that you found this position on
                     our job board, as that is a great way to support us, so we can keep posting cool jobs every day.</p>
-                    <a href="#" onClick={toggleFunc} className="button-primary small card-job-post-sidebar w-button">Apply now</a></div>
+                    <a href="#" className="button-primary small card-job-post-sidebar w-button">Apply now</a></div>
                 </div>
                 <div className="card job-post-sidebar last">
                   <div className="image-wrapper card-job-post-sidebar-icon"><img
-                    src="https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/63a413630bd706414486f790_mgh.png"
+                    src="https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/63a41427d004d00a76700d52_StJude.png"
                     alt="" className="image card-job-post-sidebar-icon"/></div>
                   <div className="card-job-post-sidebar-content">
                     <div className="card-job-post-sidebar-title-about-company-wrapper"><h3
                       className="title h4-size card-job-post-sidebar-about-company">About</h3><h3
-                      className="title h4-size card-job-post-sidebar-about-company">Massachusetts General Hospital</h3>
-                    </div>
+                      className="title h4-size card-job-post-sidebar-about-company">St. Jude Children's Research
+                      Hospital</h3></div>
                     <p className="paragraph card-job-post-sidebar">Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit. Sed turpis sit aliquam faucibus fringilla eu.</p><a
-                    href="/company/massachusetts-general-hospital"
-                    className="button-secondary small card-job-post-sidebar-about-company w-button">View company</a>
-                  </div>
+                      elit. Sed turpis sit aliquam faucibus fringilla eu.</p><a href="/company/stjude"
+                                                                                className="button-secondary small card-job-post-sidebar-about-company w-button">View
+                    company</a></div>
                 </div>
               </div>
               <div data-w-id="56137bc8-507d-e022-9903-33a938c5d594" style={{
-                transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
-                opacity: 1,
+                transform: 'translate3d(0px, 20px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                opacity: 0,
                 transformStyle: 'preserve-3d'
               }} className="content-top more-jobs">
                 <div className="split-content content-top-more-jobs-left"><h2 className="title more-jobs">More
@@ -175,8 +170,8 @@ export default function () {
               </div>
               <div className="w-dyn-list">
                 <div data-w-id="d9d4094b-ccc8-136e-0804-0353e66dd204" style={{
-                  transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
-                  opacity: 1,
+                  transform: 'translate3d(0px, 20px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  opacity: 0,
                   transformStyle: 'preserve-3d'
                 }} role="list" className="jobs-grid w-dyn-items">
                   <div role="listitem" className="job-item w-dyn-item"><a href="/job/nct02841540"
@@ -231,19 +226,12 @@ export default function () {
                       <div className="image-wrapper card-job"><img
                         src="https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/63a41c49df36e11ab6e91c4c_MD%20Anderson.png"
                         alt="Dasatinib and Venetoclax in Treating Patients With Philadelphia Chromosome Positive"
-                        className="image card-job" style={{
-                        transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
-                        transformStyle: 'preserve-3d'
-                      }}/></div>
-                      <div className="card-job-title-wrapper"><h3 className="title h6-size card-job"
-                                                                  style={{color: 'rgb(23, 23, 40)'}}>Dasatinib and
+                        className="image card-job"/></div>
+                      <div className="card-job-title-wrapper"><h3 className="title h6-size card-job">Dasatinib and
                         Venetoclax in Treating Patients With Philadelphia Chromosome Positive</h3>
                         <div className="card-link-wrapper">
                           <div className="card-link">MD Anderson Cancer Center</div>
-                          <div className="card-link-arrow" style={{
-                            transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
-                            transformStyle: 'preserve-3d'
-                          }}>
+                          <div className="card-link-arrow">
                             <div className="card-link-arrow-1"/>
                             <div className="card-link-arrow-2"/>
                             <div className="card-link-arrow-3"/>
@@ -387,20 +375,20 @@ export default function () {
                     className="title h4-size card-job-post-sidebar">Check Your Eligibility</h3><p
                     className="paragraph card-job-post-sidebar">Check your eligibility for this trial with our digital
                     screener. It's fast and easy to get started!</p></div>
-                  <a href="https://www.massgeneral.org/"
-                     className="button-primary small card-job-post-sidebar w-button" onClick={toggleFunc}>Check my eligibility </a></div>
+                  <a href="https://stjude.com" className="button-primary small card-job-post-sidebar w-button">Check my
+                    eligibility </a></div>
                 <div className="card job-post-sidebar last">
                   <div className="image-wrapper card-job-post-sidebar-icon"><img
-                    src="https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/63a413630bd706414486f790_mgh.png"
-                    alt="Massachusetts General Hospital" className="image card-job-post-sidebar-icon"/></div>
+                    src="https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/63a41427d004d00a76700d52_StJude.png"
+                    alt="St. Jude Children's Research Hospital" className="image card-job-post-sidebar-icon"/></div>
                   <div className="card-job-post-sidebar-content">
                     <div className="card-job-post-sidebar-title-about-company-wrapper"><h3
                       className="title h4-size card-job-post-sidebar-about-company">About</h3><h3
-                      className="title h4-size card-job-post-sidebar-about-company">Massachusetts General Hospital</h3>
-                    </div>
+                      className="title h4-size card-job-post-sidebar-about-company">St. Jude Children's Research
+                      Hospital</h3></div>
                     <p className="paragraph card-job-post-sidebar">Lorem ipsum dolor sit amet, consectetur adipiscing
                       elit. Sed turpis sit aliquam faucibus fringilla eu.</p></div>
-                  <a href="/company/massachusetts-general-hospital"
+                  <a href="/company/stjude"
                      className="button-secondary small card-job-post-sidebar-about-company w-button">View company</a>
                 </div>
               </div>
@@ -408,6 +396,7 @@ export default function () {
           </div>
         </div>
       </div>
+
 
       <Footer/>
     </>
