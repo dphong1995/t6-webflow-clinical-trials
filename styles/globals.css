@@ -1,4 +1,4 @@
-/* Generated on: Thu Dec 22 2022 06:05:14 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Dec 22 2022 23:26:11 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
    ========================================================================== */
@@ -6397,7 +6397,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
-  margin-bottom: 63px;
+  margin-bottom: 24px;
   padding: 42px 40px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -7898,7 +7898,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 68px;
+  margin-bottom: 26px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -11247,6 +11247,34 @@ figcaption {
   bottom: -60px;
   margin-top: 24px;
   font-size: 10px;
+}
+
+.button {
+  margin-top: 0px;
+  margin-bottom: 29px;
+  border-radius: 15px;
+  color: #fffefa;
+}
+
+.div-block {
+  margin-top: -56px;
+  margin-bottom: -21px;
+  float: none;
+  clear: right;
+  border-radius: 0px;
+  direction: ltr;
+  text-align: right;
+}
+
+.button-2 {
+  margin-right: 47px;
+  margin-left: 12px;
+  border-radius: 15px;
+}
+
+.button-3 {
+  margin-right: 12px;
+  border-radius: 15px;
 }
 
 @media screen and (max-width: 991px) {
