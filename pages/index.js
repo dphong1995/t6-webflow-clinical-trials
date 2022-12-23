@@ -19,9 +19,11 @@ export default function Home() {
           transformStyle: 'preserve-3d'
         }} className="container-default w-container">
           <div className="div-block">
-            <a href="#googtrans(en|en)" className="button-3 w-button lang-select">English</a>
+            <a href="#googtrans(en|en)" data-lang="en" className="button-3 w-button lang-select">English</a>
             <a href="#googtrans(en|fr)" data-lang="fr" className="button w-button lang-select">French</a>
-            <a href="#googtrans(zh-CN)" className="button-2 w-button lang-select">Chinese</a></div>
+            <a href="#googtrans(zh-CN)" data-lang="zh-CN" className="button-2 w-button lang-select">Chinese</a>
+            <a href="#googtrans(es)" data-lang="es" className="button-2 w-button lang-select">Spanish</a>
+          </div>
           <div className="card home-jobs-filters">
             <form action="/search" className="home-jobs-filter-search w-form"><input type="search"
                                                                                      className="input home-jobs-filter-search-input w-input"
