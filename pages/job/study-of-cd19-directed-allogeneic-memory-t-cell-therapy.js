@@ -1,5 +1,6 @@
 import Header from "../../components/header";
 import Footer from "../../components/footer";
+import {toggleFunc} from "../../components/clickFunc";
 
 export default function () {
   return (
@@ -123,7 +124,7 @@ export default function () {
                         clinical signs of CNS leukemia).</p><p>Hyperleukocytosis (≥ 50,000 blasts/µL) or rapidly
                         progressive disease that in the estimation of the investigator and sponsor would compromise
                         ability to complete study therapy.</p></div>
-                    <a href="https://stjude.com" target="_blank" className="button-primary apply-button w-button">Apply
+                    <a href="https://stjude.com" onClick={toggleFunc} className="button-primary apply-button w-button">Apply
                       now</a></div>
                 </div>
               </div>
@@ -140,7 +141,7 @@ export default function () {
                     className="title h4-size card-job-post-sidebar">Apply now</h3><p
                     className="paragraph card-job-post-sidebar">Please let Webflow know that you found this position on
                     our job board, as that is a great way to support us, so we can keep posting cool jobs every day.</p>
-                    <a href="#" className="button-primary small card-job-post-sidebar w-button">Apply now</a></div>
+                    <a href="#" onClick={toggleFunc} className="button-primary small card-job-post-sidebar w-button">Apply now</a></div>
                 </div>
                 <div className="card job-post-sidebar last">
                   <div className="image-wrapper card-job-post-sidebar-icon"><img
@@ -375,7 +376,7 @@ export default function () {
                     className="title h4-size card-job-post-sidebar">Check Your Eligibility</h3><p
                     className="paragraph card-job-post-sidebar">Check your eligibility for this trial with our digital
                     screener. It's fast and easy to get started!</p></div>
-                  <a href="https://stjude.com" className="button-primary small card-job-post-sidebar w-button">Check my
+                  <a href="https://stjude.com" onClick={toggleFunc} className="button-primary small card-job-post-sidebar w-button">Check my
                     eligibility </a></div>
                 <div className="card job-post-sidebar last">
                   <div className="image-wrapper card-job-post-sidebar-icon"><img
