@@ -377,11 +377,11 @@ export default function () {
                     src="https://uploads-ssl.webflow.com/637be9fef1765c0f958ddd3c/637be9fff1765c18f98ddd9b_icon-apply-job-post-job-board-x-template.svg"
                     alt="Check Icon - Job Board X Webflow Template" className="image card-job-post-sidebar-icon"/></div>
                   <div className="card-job-post-sidebar-content"><h3
-                    className="title h4-size card-job-post-sidebar" onClick={toggleFunc}>Check Your Eligibility</h3><p
+                    className="title h4-size card-job-post-sidebar">Check Your Eligibility</h3><p
                     className="paragraph card-job-post-sidebar">Check your eligibility for this trial with our digital
                     screener. It's fast and easy to get started!</p></div>
                   <a href="https://www.massgeneral.org/"
-                     className="button-primary small card-job-post-sidebar w-button">Check my eligibility </a></div>
+                     className="button-primary small card-job-post-sidebar w-button" onClick={toggleFunc}>Check my eligibility </a></div>
                 <div className="card job-post-sidebar last">
                   <div className="image-wrapper card-job-post-sidebar-icon"><img
                     src="https://uploads-ssl.webflow.com/637be9fff1765c82ee8ddd63/63a413630bd706414486f790_mgh.png"
